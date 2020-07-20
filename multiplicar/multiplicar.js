@@ -8,7 +8,7 @@ let listarTabla = (base, limite = 10) => {
     console.log('======================='.green);
 
     for (let i = 1; i <= limite; i++) {
-        console.log(`${ base } x ${ i } = ${ base * i }`);
+        console.log(`${ base } x ${ i } = ${ base*i }`);
     }
 }
 
@@ -20,7 +20,7 @@ let crearArchivo = (base, limite = 10) => {
             return reject(`${ base } no es un número`);
 
         for (let i = 1; i <= limite; i++) {
-            data += `${ base } * ${ i } = ${ base * i }\n`;
+            data += `${ base } * ${ i } = ${ base*i }\n`;
         }
 
         fs.writeFile(`tablas/tabla-${ base }.txt`, data, err => {
