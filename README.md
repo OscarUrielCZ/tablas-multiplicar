@@ -1,6 +1,6 @@
 # Multiplicar console app
 
-Una aplicación que despliega tablas de multiplicar de acuerdo a los parametros recibidos.
+Una aplicación desarrolada en nodejs que despliega tablas de multiplicar de acuerdo a los parametros recibidos.
 
 - base: establece la base de la tabla, también se puede usar b
 - limite: establece el limite de la tabla, también se puede usar l
